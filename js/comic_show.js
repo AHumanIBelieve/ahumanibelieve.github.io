@@ -13,7 +13,7 @@ writeNav(false); //show navigation for comic pages. to toggle either images or t
 //debug
 console.log(pg)
 
-writePageTitle(".writePageTitle", true, " - "); //write title of page. true/false
+writePageTitle(".writePageTitle", true, ". "); //write title of page. true/false
 
 writePageClickable(".writePageClickable",true); //show the current page. to toggle whether pages can be clicked to move to the next one, set this to true or false.
 
@@ -42,7 +42,7 @@ function writePageTitle(div,toggleNum, char) {
     document.querySelector(div).innerHTML = `<h1>${pgData[pg - 1].title}</h1>`;
     if (toggleNum) {
         //toggle whether you want to display the page number
-        document.querySelector(div).innerHTML = `<h1>${pgData[pg - 1].pgNum + char + pgData[pg - 1].title}</h1>`; //char denotes a separating character between the number and the title
+        document.querySelector(div).innerHTML = `<h1 style="color:White;">${pgData[pg - 1].pgNum + char + pgData[pg - 1].title}</h1>`; //char denotes a separating character between the number and the title
     }
   }
 }
