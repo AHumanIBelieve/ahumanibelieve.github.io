@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 1; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 2; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -54,14 +54,33 @@ const pgData = [
         altText: "", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
         imageFiles: 1, //how many image files this page is split into
         authorNotes: `
-            <p>You know DM of the Ring or Darths and Droids? Well, there wasn't one for Harry Potter so I decided to make it. A short one to start, just of dumbledore walking in. I am honestly quite surprised no-one had done this, to be honest, but now I have accepted the challenge. I hope you have fun reading this thing.</p>
+                        <p>You know DM of the Ring or Darths and Droids? Well, there wasn't one for Harry Potter so I decided to make it. A short one to start, just of dumbledore walking in. I am honestly quite surprised no-one had done this, to be honest, but now I have accepted the challenge. I hope you have fun reading this thing.</p>
             <h3>Transcript</h3>
             <p><i>Image of the Privet Drive sign. Dumbledore walks in</i></p>
             <p>Dumbledore: Finally, we're here. Stupid Muggles.</p>
             <p>Player 1: Wait. Muggles? Explain. You tell us to play this new campaign. It'll be fun, you said. It'll make sense you said.</p>
             <p>Player 2: Like the last one you made us play...</p>
-            <p>Player 1: Get explaining. You called it Lore heavy. I hope lore doesn't mean lots of NPC monologues.</p>
+            <p>Player 1: Get explaining. You called it lore heavy. I hope lore doesn't mean lots of NPC monologues.</p>
             `,
+    },
+    {
+        pgNum: 2,
+        title: "DnD must be medieval",
+        date: writeDate(2023,1,1),
+        altText: "",
+        imageFiles: "1",
+        authorNotes: `
+		<p>Players don't like long monologues, but if they happen to be gamers, I think calling them cutscenes is the way to go. Another weird thing is that a non-medieval DnD campaign is just considered weird. Trying to industrialise a medieval world is okay though, for some reason. In my ongoing campaign, I am the head of a multinational group of taverns. I still have to remind the DM about my paychecks, though.</p>
+		<p>Also, about making Dumbledore like, well, how he is, I felt like having an old wise guy who thinks that he is cool would be funny.</p>
+		<h3>Transcript</h3>
+		<p>DM: Ok. Fine. Look. It'll all be explained. Pter, think of it like a cutscene. Important Backstory. Also, Robert, my last campaign made perfect sense!</p>
+		<p>Robert: As much sense as you're making...</p>
+		<p>Dumbledore: Lights out, uh-huh, oh yeah.</p>
+		<p>VFX: SWOOSH<i> (as the lights go out and fly to dumbledore's Deluminator</i></p>
+		<p>Peter: Is he okay? Also, why is this not medieval? There are cars!</p>
+		<p>DM: Can you please just SHUT UP and let me do this? Please?</p>
+		
+		`
     },
     
 ];
