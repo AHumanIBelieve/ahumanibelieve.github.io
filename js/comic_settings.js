@@ -78,7 +78,7 @@ const pgData = [
 		<p>DM: Ok. Fine. Look. It'll all be explained. Peter, think of it like a cutscene. Important Backstory. Also, Robert, my last campaign made perfect sense!</p>
 		<p>Robert: As much sense as you're making...</p>
 		<p>Dumbledore: Lights out, uh-huh, oh yeah.</p>
-		<p>VFX: SWOOSH<i> (as the lights go out and fly to dumbledore's Deluminator</i></p>
+		<p>VFX: SWOOSH<i> (as the lights go out and fly to dumbledore's Deluminator)</i></p>
 		<p>Peter: Is he okay? Also, why is this not medieval? There are cars!</p>
 		<p>DM: Can you please just SHUT UP and let me do this? Please?</p>
 		
