@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 2; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 3; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -82,6 +82,23 @@ const pgData = [
 		<p>Peter: Is he okay? Also, why is this not medieval? There are cars!</p>
 		<p>DM: Can you please just SHUT UP and let me do this? Please?</p>
 		
+		`
+    },
+    {
+        pgNum: 3,
+        title: "Druid?",
+        date: writeDate(2022,01,02),
+        altText: "",
+        imageFiles: "1",
+        authorNotes: `
+		<p>Druids and wildshape have become one and the same, so much that any druid character without wildshape is ocnsidered impossible to exist. Not much else to say today actually.</p>
+		<p>Actually, can someone please help me make a comments system? Asked for help on stack overflow <a href="https://stackoverflow.com/questions/74975317/making-a-comments-system-in-rarebit">here</a></p>
+		<h3>Transcript</h3>
+		<p>Dumbledore: I knew y'all would be here, Prof McG!</p>
+		<p><i>Professor McGonnagal turns into a human from cat form</i></p>
+		<p>Professor McGonnagal: Good evening, Professor Dumbledore.</p>
+		<p>Peter: YO! It's a druid with wildshape. But I thought you said everyone was a wizard?</p>
+		<p>DM: SHUT UP, Peter!</p>
 		`
     },
     
