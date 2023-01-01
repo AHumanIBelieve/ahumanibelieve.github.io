@@ -54,7 +54,13 @@ const pgData = [
         altText: "", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
         imageFiles: 1, //how many image files this page is split into
         authorNotes: `
-            <p>You know DM of the Ring or Darths and Droids? Well, there wasn't one for Harry Potter so I decided to make it. A short one to start, just of dumbledore walking in.</p>
+            <p>You know DM of the Ring or Darths and Droids? Well, there wasn't one for Harry Potter so I decided to make it. A short one to start, just of dumbledore walking in. I am honestly quite surprised no-one had done this, to be honest, but now I have accepted the challenge. I hope you have fun reading this thing.</p>
+            <h3>Transcript</h3>
+            <p><i>Image of the Privet Drive sign. Dumbledore walks in</i></p>
+            <p>Dumbledore: Finally, we're here. Stupid Muggles.</p>
+            <p>Player 1: Wait. Muggles? Explain. You tell us to play this new campaign. It'll be fun, you said. It'll make sense you said.</p>
+            <p>Player 2: Like the last one you made us play...</p>
+            <p>Player 1: Get explaining. You called it Lore heavy. I hope lore doesn't mean lots of NPC monologues.</p>
             `,
     },
     
