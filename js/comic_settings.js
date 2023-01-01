@@ -72,8 +72,10 @@ const pgData = [
         authorNotes: `
 		<p>Players don't like long monologues, but if they happen to be gamers, I think calling them cutscenes is the way to go. Another weird thing is that a non-medieval DnD campaign is just considered weird. Trying to industrialise a medieval world is okay though, for some reason. In my ongoing campaign, I am the head of a multinational group of taverns. I still have to remind the DM about my paychecks, though.</p>
 		<p>Also, about making Dumbledore like, well, how he is, I felt like having an old wise guy who thinks that he is cool would be funny.</p>
+		<p>About the schedule of uploads, I'm thinking maybe mondays, thursdays, saturdays, and sundays at noon.This way I can pre-make all the strips for that week and then schedule them.</p>
+		<p>Also, to my 3 readers, hapy new year!</p>
 		<h3>Transcript</h3>
-		<p>DM: Ok. Fine. Look. It'll all be explained. Pter, think of it like a cutscene. Important Backstory. Also, Robert, my last campaign made perfect sense!</p>
+		<p>DM: Ok. Fine. Look. It'll all be explained. Peter, think of it like a cutscene. Important Backstory. Also, Robert, my last campaign made perfect sense!</p>
 		<p>Robert: As much sense as you're making...</p>
 		<p>Dumbledore: Lights out, uh-huh, oh yeah.</p>
 		<p>VFX: SWOOSH<i> (as the lights go out and fly to dumbledore's Deluminator</i></p>
