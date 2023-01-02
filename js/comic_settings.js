@@ -67,7 +67,7 @@ const pgData = [
         pgNum: 2,
         title: "DnD must be medieval",
         date: writeDate(2023,1,1),
-        altText: "",
+        altText: "Check out this cool youtube video!",
         imageFiles: "1",
         authorNotes: `
 		<p>Players don't like long monologues, but if they happen to be gamers, I think calling them cutscenes is the way to go. Another weird thing is that a non-medieval DnD campaign is just considered weird. Trying to industrialise a medieval world is okay though, for some reason. In my ongoing campaign, I am the head of a multinational group of taverns. I still have to remind the DM about my paychecks, though.</p>
@@ -88,17 +88,28 @@ const pgData = [
         pgNum: 3,
         title: "Druid?",
         date: writeDate(2022,01,02),
-        altText: "",
-        imageFiles: "1",
+        altText: "potato",
+        imageFiles: "2",
         authorNotes: `
-		<p>Druids and wildshape have become one and the same, so much that any druid character without wildshape is ocnsidered impossible to exist. Not much else to say today actually.</p>
-		<p>Actually, can someone please help me make a comments system? Asked for help on stack overflow <a href="https://stackoverflow.com/questions/74975317/making-a-comments-system-in-rarebit">here</a></p>
+		<p>Druids and wildshape have become one and the same, so much that any druid character without wildshape is considered impossible to exist.</p>
+		<p>This DM has decided to roll his conversation. He is more strict than the DM in Darths and Droids, but not as strict as the one in DM of the ring. Peter's lucky his character hasn't been prematurely hit with a meteorite, with -20 on death saves</p>
+		<p>If you were wondering, he was rolling persuasion for <s>Prof McG</s> Professor McGonnagal</p>
+		<p>Also, can someone please help me make a comments system? Asked for help on stack overflow <a href="https://stackoverflow.com/questions/74975317/making-a-comments-system-in-rarebit">here</a></p>
 		<h3>Transcript</h3>
 		<p>Dumbledore: I knew y'all would be here, Prof McG!</p>
 		<p><i>Professor McGonnagal turns into a human from cat form</i></p>
 		<p>Professor McGonnagal: Good evening, Professor Dumbledore.</p>
 		<p>Peter: YO! It's a druid with wildshape. But I thought you said everyone was a wizard?</p>
 		<p>DM: SHUT UP, Peter!</p>
+		<p>McGonnagal: Are the rumours true, Albus?</p>
+		<p>Dumbledore: Uh-huh, Prof McG! The good ones <i>and the bad onse</i>.</p>
+		<p>McGonnagal: And the boy?</p>
+		<p>Dumbledore: Hagrid is bringing him, Prof.</p>
+		<p>McGonnagal: Is it wise to trust Hagrid with something this important?</p>
+		<p>Dice FX: Roll - 4</p>
+		<p>Dumbledore: I trust Hagrid with my life, Prof McG, and so should you!</p>
+		<p>Peter: Boooori-</p>
+		<p>DM: SHUT UP, Peter!
 		`
     },
     
