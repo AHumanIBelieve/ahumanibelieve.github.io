@@ -114,6 +114,7 @@ header #nav {
 /* style comic page image */
 .comicPage img {
   width: 900px;
+  align-items: center;
   max-width: 98%;
 }
 

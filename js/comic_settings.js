@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 3; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 4; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -88,7 +88,7 @@ const pgData = [
         pgNum: 3,
         title: "Druid?",
         date: writeDate(2022,01,02),
-        altText: "potato",
+        altText: "",
         imageFiles: "2",
         authorNotes: `
 		<p>Druids and wildshape have become one and the same, so much that any druid character without wildshape is considered impossible to exist.</p>
@@ -111,6 +111,18 @@ const pgData = [
 		<p>Peter: Boooori-</p>
 		<p>DM: SHUT UP, Peter!
 		`
+    },
+    {
+        pgNum: 4,
+        title: "Working on Website, just some stuff",
+        date: writeDate(2023,01,05),
+        altText: "",
+        imageFiles: "1",
+        authorNotes: `
+        <p>I am reworking the website today, so I got an AI to do my work for me instead</p>
+        <p>The AI I used was the Text to Image app on <a href="canva.com">Canva</a>, and the prompt was: </p>
+        <p><i>harry potter / dungeons and dragons webcomic. screencaps from the movies. funny.</i></p>
+        <p>Hope you enjoy the new website, coming soon!</p>`
     },
     
 ];
