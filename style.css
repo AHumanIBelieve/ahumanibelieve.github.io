@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+  body {
+    background-color: rgb(0, 0, 0);
+
+  }
+
+  /* link colors */
+a {
+    color: #fff700;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  a#headernav {
+    color: #fff700;
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+  }
+
+  a#headernav:hover {
+    color: #ff0000;
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  img {
+    width: 50%;
+  }
+
+
+  h2#title {
+    text-align: center;
+    color: #fff700;
+  }
+
+
+  div.authornotes {
+    background-color: #ffffff; /* pale blue */
+    border: 5px solid #000000; /* dark blue */
+  }
+
+
+  p {
+    text-align: center;
+    color: #000000;
+  }
+
+  h3 {
+    text-align: center;
+    color: #000000;   
+  }
+
+  p#footer{
+    color: #ffffff;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    color: #ffffff;
+  }
