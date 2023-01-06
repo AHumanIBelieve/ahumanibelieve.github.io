@@ -38,6 +38,10 @@ a:hover {
     text-align: center;
   }
 
+  div {
+    text-align: center;
+  }
+
   @media (max-width: 1000px) {
     img {
       text-align: center;
