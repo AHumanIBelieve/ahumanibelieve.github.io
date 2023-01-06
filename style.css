@@ -29,13 +29,17 @@ a:hover {
     font-family: 'Rowdies', cursive;
   }
 
-  div {
+  div.comic {
     text-align: center;
-  }
-
-  img {
     width: 50%;
   }
+
+  @media (max-width: 1000px) {
+    div.comic {
+      text-align: center;
+      width: 90%;
+    }
+}
 
 
   h2#title {
