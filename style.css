@@ -34,6 +34,10 @@ a:hover {
     width: 50%;
   }
 
+  div.comic {
+    text-align: center;
+  }
+
   @media (max-width: 1000px) {
     img {
       text-align: center;
