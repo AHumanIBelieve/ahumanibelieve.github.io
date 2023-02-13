@@ -68,7 +68,8 @@ a:hover {
   }
 
   img#qr {
-    height: 450px;
+    max-height: 450px;
+    max-width: 450px;
     object-fit: contain;
   }
 
