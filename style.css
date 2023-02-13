@@ -67,6 +67,11 @@ a:hover {
     color: #000000;
   }
 
+  img#qr {
+    width: 450;
+    height: 450;
+  }
+
   h3 {
     text-align: center;
     color: #000000;   
