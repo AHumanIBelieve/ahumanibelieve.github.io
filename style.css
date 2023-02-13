@@ -68,8 +68,9 @@ a:hover {
   }
 
   img#qr {
-    width: 450;
-    height: 450;
+    height: 450px;
+    width: 20%;
+    object-fit: cover;
   }
 
   h3 {
