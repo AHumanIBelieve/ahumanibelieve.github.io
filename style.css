@@ -70,7 +70,7 @@ a:hover {
   img#qr {
     height: 450px;
     width: 20%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   h3 {
